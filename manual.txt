@@ -1,0 +1,29 @@
+metodo para registrar{
+	"Nome_Produto": "nome",
+	"Descricao_Produto": "descricao",
+	"Preco_Produto": "qualquer numero", ops está como decimal
+	"Estoque_Produto": 50
+}
+
+metodo de procura{
+	"Nome_Produto": "leitinho"
+} 
+
+metodo de atualizar{
+	"id": 16, Só precisa digitar o id do produto 
+    o restor é so atualizar as propriedades
+
+	"novoNome": "Nome Produto",
+	"novaDescricao": "nome produtofjlafadskfj ",
+	"novoPreco": "4.40",
+	"novoEstoque": 15
+}
+
+metodo de deletar{
+	"id": id do produto a deletar,
+	"Nome_Produto": "nome do produto a deletar"
+}
+
+listar{
+    get http://localhost:8081/listar e enviar uma requisição
+}
